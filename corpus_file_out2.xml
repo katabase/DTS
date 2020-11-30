@@ -1,0 +1,171 @@
+<?xml-model href="../../_schemas/odd_editiones.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../_schemas/odd_editiones.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="RDA">
+    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
+        <fileDesc>
+            <titleStmt>
+                <title>Autograph manuscripts catalogues</title>
+                <respStmt>
+                    <persName ref="#COL_000002">Simon Gabay et al.</persName>
+                    <resp>
+                        <date when="2019">2019-2020</date>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <extent/>
+            <publicationStmt>
+                <publisher>Projet e-Ditiones, Universit&#233; de Neuch&#226;tel</publisher>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by/2.0">Attribution 2.0
+                        Generic (CC BY 2.0)</licence>
+                </availability>
+            </publicationStmt>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fr">french</language>
+            </langUsage>
+        </profileDesc>
+        <encodingDesc>
+            <samplingDecl>
+                <p>This electronic version of the catalog only reproduces the entries that
+                    correspond to documents for sale. All text preceding or succeeding the list of
+                    documents for sale is not reproduced below.</p>
+            </samplingDecl>
+            <classDesc>
+                <taxonomy xml:id="format">
+                    <desc>Document format</desc>
+                    <category xml:id="document_format_1">
+                        <catDesc>In-folio</catDesc>
+                    </category>
+                    <category xml:id="document_format_2">
+                        <catDesc>In-2&#176;</catDesc>
+                    </category>
+                    <category xml:id="document_format_3">
+                        <catDesc>In-3&#176;</catDesc>
+                    </category>
+                    <category xml:id="document_format_4">
+                        <catDesc>In-quarto</catDesc>
+                    </category>
+                    <category xml:id="document_format_8">
+                        <catDesc>In-octavo</catDesc>
+                    </category>
+                    <category xml:id="document_format_12">
+                        <catDesc>In-12</catDesc>
+                    </category>
+                    <category xml:id="document_format_16">
+                        <catDesc>In-16</catDesc>
+                    </category>
+                    <category xml:id="document_format_18">
+                        <catDesc>In-18</catDesc>
+                    </category>
+                    <category xml:id="document_format_32">
+                        <catDesc>In-32</catDesc>
+                    </category>
+                    <category xml:id="document_format_40">
+                        <catDesc>In-40</catDesc>
+                    </category>
+                    <category xml:id="document_format_48">
+                        <catDesc>In-48</catDesc>
+                    </category>
+                    <category xml:id="document_format_64">
+                        <catDesc>In-64</catDesc>
+                    </category>
+                    <category xml:id="document_format_101">
+                        <catDesc>In-folio oblong</catDesc>
+                    </category>
+                    <category xml:id="document_format_102">
+                        <catDesc>In-2&#176; oblong</catDesc>
+                    </category>
+                    <category xml:id="document_format_103">
+                        <catDesc>In-3&#176; oblong</catDesc>
+                    </category>
+                    <category xml:id="document_format_104">
+                        <catDesc>In-quarto oblong</catDesc>
+                    </category>
+                    <category xml:id="document_format_108">
+                        <catDesc>In-octavo oblong</catDesc>
+                    </category>
+                    <category xml:id="document_format_112">
+                        <catDesc>In-12 oblong</catDesc>
+                    </category>
+                    <category xml:id="document_format_116">
+                        <catDesc>In-16 oblong</catDesc>
+                    </category>
+                    <category xml:id="document_format_118">
+                        <catDesc>In-18 oblong</catDesc>
+                    </category>
+                    <category xml:id="document_format_132">
+                        <catDesc>In-32 oblong</catDesc>
+                    </category>
+                    <category xml:id="document_format_140">
+                        <catDesc>In-40 oblong</catDesc>
+                    </category>
+                    <category xml:id="document_format_148">
+                        <catDesc>In-48 oblong</catDesc>
+                    </category>
+                    <category xml:id="document_format_164">
+                        <catDesc>In-64 oblong</catDesc>
+                    </category>
+                </taxonomy>
+                <taxonomy xml:id="document_type">
+                    <desc>Document type</desc>
+                    <category xml:id="document_type_1">
+                        <catDesc>Apostille autographe sign&#233;e</catDesc>
+                    </category>
+                    <category xml:id="document_type_2">
+                        <catDesc>Apostille autographe</catDesc>
+                    </category>
+                    <category xml:id="document_type_3">
+                        <catDesc>Pi&#232;ce autographe</catDesc>
+                    </category>
+                    <category xml:id="document_type_4">
+                        <catDesc>Pi&#232;ce sign&#233;e</catDesc>
+                    </category>
+                    <category xml:id="document_type_5">
+                        <catDesc>Billet autographe sign&#233;</catDesc>
+                    </category>
+                    <category xml:id="document_type_6">
+                        <catDesc>Billet sign&#233;</catDesc>
+                    </category>
+                    <category xml:id="document_type_7">
+                        <catDesc>Lettre autographe sign&#233;e</catDesc>
+                    </category>
+                    <category xml:id="document_type_8">
+                        <catDesc>Lettre autographe</catDesc>
+                    </category>
+                    <category xml:id="document_type_9">
+                        <catDesc>Lettre sign&#233;e</catDesc>
+                    </category>
+                    <category xml:id="document_type_10">
+                        <catDesc>Brevet sign&#233;</catDesc>
+                    </category>
+                    <category xml:id="document_type_11">
+                        <catDesc>Quittance autographe sign&#233;e</catDesc>
+                    </category>
+                    <category xml:id="document_type_12">
+                        <catDesc>Quittance sign&#233;e</catDesc>
+                    </category>
+                    <category xml:id="document_type_13">
+                        <catDesc>Manuscrit autographe</catDesc>
+                    </category>
+                    <category xml:id="document_type_14">
+                        <catDesc>Chanson autographe</catDesc>
+                    </category>
+                    <category xml:id="document_type_15">
+                        <catDesc>Document (?) Autographe sign&#233;</catDesc>
+                    </category>
+                </taxonomy>
+            </classDesc>
+            <appInfo>
+                <application version="1.6" ident="Transkribus" when="2019">
+                    <label>Transkribus</label>
+                    <ptr target="https://transkribus.eu/Transkribus/"/>
+                </application>
+                <application version="0.5.4" ident="GROBID" when="2019-06-08">
+                    <label>GROBID_Dictionaries - A machine learning software for structuring
+                        digitized dictionaries</label>
+                    <ptr target="https://github.com/MedKhem/grobid-dictionaries"/>
+                </application>
+            </appInfo>
+        </encodingDesc>
+    </teiHeader>
+<teiCorpus><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000171.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000129.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000090.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000025.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000150.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000012.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000122.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000136.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000119.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000005.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000034.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000089.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000099.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000001.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000032.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000059.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000007.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000045.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000088.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000237.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000035.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000137.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000117.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000145.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000074.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000002.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000097.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000004.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000158.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000011.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000139.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000073.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000114.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000043.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000044.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000140.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000104.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000164.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000106.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000047.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000124.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000230.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000194.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000173.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000155.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000234.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000105.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000152.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000112.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000061.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000330.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000087.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000101.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000115.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000003.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000163.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000030.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000053.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000057.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000149.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000103.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000021.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000132.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000199.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000018.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000126.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000084.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000141.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000121.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000134.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000100.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000111.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000327.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000055.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000072.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000064.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000081.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000143.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000225.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000174.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000165.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000076.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000160.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000009.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000023.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000027.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000113.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000026.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000221.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000222.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000092.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000159.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000015.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000326.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000080.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000091.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000109.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000060.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000120.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000075.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000227.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000017.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000029.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000033.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000153.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000235.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000083.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000172.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000050.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000144.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000200.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000038.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000039.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000085.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000046.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000168.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000167.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000067.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000329.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000037.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000065.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000110.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000019.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000107.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000226.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000328.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000054.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000095.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000229.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000070.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000093.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000166.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000198.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000010.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000078.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000058.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000131.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000036.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000157.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000228.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000094.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000024.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000127.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000096.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000068.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000086.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000224.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000161.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000013.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000071.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000232.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000062.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000130.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000133.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000028.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000123.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000079.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000082.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000020.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000048.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000051.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000014.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000156.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000162.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000098.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000148.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000238.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000102.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000151.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000008.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000154.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000022.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000041.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000077.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000116.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000042.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000031.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000138.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000006.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000146.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000147.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000197.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000108.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000236.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000040.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000056.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000142.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000049.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000066.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000069.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000239.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000128.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000052.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000233.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000125.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000135.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000016.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000118.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000063.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000170.xml"/> <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="output_xml/CAT_000169.xml"/></teiCorpus></teiCorpus>
