@@ -36,11 +36,12 @@
             <xsl:element name="cRefPattern" namespace="http://www.tei-c.org/ns/1.0">
                 <xsl:attribute name="name">cRefPattern</xsl:attribute>
                 <xsl:attribute name="n">desc</xsl:attribute>
-                <xsl:attribute name="matchPattern">(\w+).(\w+)</xsl:attribute>
+                <xsl:attribute name="matchPattern">(\w+\.\w+)</xsl:attribute>
                 <xsl:attribute name="replacementPattern"
-                    >#xpath(/tei:TEI/tei:text/tei:body/tei:list/tei:item[@xml:id='$1']/tei:desc[contains(@xml:id,$2)])</xsl:attribute>
+                    >#xpath(/tei:TEI/tei:text/tei:body/tei:list/tei:item/tei:desc[@xml:id='$1'])</xsl:attribute>
                 <xsl:element name="p" namespace="http://www.tei-c.org/ns/1.0">This pointer pattern
                     extracts item and desc.</xsl:element>
+                <!--It won't work !-->
             </xsl:element>
             <xsl:element name="cRefPattern" namespace="http://www.tei-c.org/ns/1.0">
                 <xsl:attribute name="name">cRefPattern</xsl:attribute>
@@ -64,6 +65,8 @@
     </xsl:template>
 
 
+
+    <!--TODO: passer des @xml:id aux @n-->
 
     <xsl:template match="tei:item[not(parent::tei:taxonomy)]">
         <xsl:element name="item" namespace="http://www.tei-c.org/ns/1.0">

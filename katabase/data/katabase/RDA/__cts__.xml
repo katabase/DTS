@@ -1,0 +1,809 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:revue xmlns:ti="http://chs.harvard.edu/xmlns/cts" groupUrn="urn:dts:frLit:katabase"
+    urn="urn:dts:frLit:katabase.RDA">
+    <ti:title xml:lang="fr"> Revue des autographes </ti:title>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000171">
+        <ti:label xml:lang="fr">Catalogue CAT_000171</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000129">
+        <ti:label xml:lang="fr">Catalogue CAT_000129</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000090">
+        <ti:label xml:lang="fr">Catalogue CAT_000090</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000025">
+        <ti:label xml:lang="fr">Catalogue CAT_000025</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000150">
+        <ti:label xml:lang="fr">Catalogue CAT_000150</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000012">
+        <ti:label xml:lang="fr">Catalogue CAT_000012</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000122">
+        <ti:label xml:lang="fr">Catalogue CAT_000122</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000136">
+        <ti:label xml:lang="fr">Catalogue CAT_000136</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000119">
+        <ti:label xml:lang="fr">Catalogue CAT_000119</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000005">
+        <ti:label xml:lang="fr">Catalogue CAT_000005</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000034">
+        <ti:label xml:lang="fr">Catalogue CAT_000034</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000089">
+        <ti:label xml:lang="fr">Catalogue CAT_000089</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000099">
+        <ti:label xml:lang="fr">Catalogue CAT_000099</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000001">
+        <ti:label xml:lang="fr">Catalogue CAT_000001</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000032">
+        <ti:label xml:lang="fr">Catalogue CAT_000032</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000059">
+        <ti:label xml:lang="fr">Catalogue CAT_000059</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000007">
+        <ti:label xml:lang="fr">Catalogue CAT_000007</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000045">
+        <ti:label xml:lang="fr">Catalogue CAT_000045</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000088">
+        <ti:label xml:lang="fr">Catalogue CAT_000088</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000237">
+        <ti:label xml:lang="fr">Catalogue CAT_000237</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000035">
+        <ti:label xml:lang="fr">Catalogue CAT_000035</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000137">
+        <ti:label xml:lang="fr">Catalogue CAT_000137</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000117">
+        <ti:label xml:lang="fr">Catalogue CAT_000117</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000145">
+        <ti:label xml:lang="fr">Catalogue CAT_000145</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000074">
+        <ti:label xml:lang="fr">Catalogue CAT_000074</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000002">
+        <ti:label xml:lang="fr">Catalogue CAT_000002</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000097">
+        <ti:label xml:lang="fr">Catalogue CAT_000097</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000004">
+        <ti:label xml:lang="fr">Catalogue CAT_000004</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000158">
+        <ti:label xml:lang="fr">Catalogue CAT_000158</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000011">
+        <ti:label xml:lang="fr">Catalogue CAT_000011</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000139">
+        <ti:label xml:lang="fr">Catalogue CAT_000139</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000073">
+        <ti:label xml:lang="fr">Catalogue CAT_000073</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000114">
+        <ti:label xml:lang="fr">Catalogue CAT_000114</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000043">
+        <ti:label xml:lang="fr">Catalogue CAT_000043</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000044">
+        <ti:label xml:lang="fr">Catalogue CAT_000044</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000140">
+        <ti:label xml:lang="fr">Catalogue CAT_000140</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000104">
+        <ti:label xml:lang="fr">Catalogue CAT_000104</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000164">
+        <ti:label xml:lang="fr">Catalogue CAT_000164</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000106">
+        <ti:label xml:lang="fr">Catalogue CAT_000106</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000047">
+        <ti:label xml:lang="fr">Catalogue CAT_000047</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000124">
+        <ti:label xml:lang="fr">Catalogue CAT_000124</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000230">
+        <ti:label xml:lang="fr">Catalogue CAT_000230</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000194">
+        <ti:label xml:lang="fr">Catalogue CAT_000194</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000173">
+        <ti:label xml:lang="fr">Catalogue CAT_000173</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000155">
+        <ti:label xml:lang="fr">Catalogue CAT_000155</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000234">
+        <ti:label xml:lang="fr">Catalogue CAT_000234</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000105">
+        <ti:label xml:lang="fr">Catalogue CAT_000105</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000152">
+        <ti:label xml:lang="fr">Catalogue CAT_000152</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000112">
+        <ti:label xml:lang="fr">Catalogue CAT_000112</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000061">
+        <ti:label xml:lang="fr">Catalogue CAT_000061</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000330">
+        <ti:label xml:lang="fr">Catalogue CAT_000330</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000087">
+        <ti:label xml:lang="fr">Catalogue CAT_000087</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000101">
+        <ti:label xml:lang="fr">Catalogue CAT_000101</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000115">
+        <ti:label xml:lang="fr">Catalogue CAT_000115</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000003">
+        <ti:label xml:lang="fr">Catalogue CAT_000003</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000163">
+        <ti:label xml:lang="fr">Catalogue CAT_000163</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000030">
+        <ti:label xml:lang="fr">Catalogue CAT_000030</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000053">
+        <ti:label xml:lang="fr">Catalogue CAT_000053</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000057">
+        <ti:label xml:lang="fr">Catalogue CAT_000057</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000149">
+        <ti:label xml:lang="fr">Catalogue CAT_000149</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000103">
+        <ti:label xml:lang="fr">Catalogue CAT_000103</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000021">
+        <ti:label xml:lang="fr">Catalogue CAT_000021</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000132">
+        <ti:label xml:lang="fr">Catalogue CAT_000132</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000199">
+        <ti:label xml:lang="fr">Catalogue CAT_000199</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000018">
+        <ti:label xml:lang="fr">Catalogue CAT_000018</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000126">
+        <ti:label xml:lang="fr">Catalogue CAT_000126</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000084">
+        <ti:label xml:lang="fr">Catalogue CAT_000084</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000141">
+        <ti:label xml:lang="fr">Catalogue CAT_000141</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000121">
+        <ti:label xml:lang="fr">Catalogue CAT_000121</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000134">
+        <ti:label xml:lang="fr">Catalogue CAT_000134</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000100">
+        <ti:label xml:lang="fr">Catalogue CAT_000100</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000111">
+        <ti:label xml:lang="fr">Catalogue CAT_000111</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000327">
+        <ti:label xml:lang="fr">Catalogue CAT_000327</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000055">
+        <ti:label xml:lang="fr">Catalogue CAT_000055</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000072">
+        <ti:label xml:lang="fr">Catalogue CAT_000072</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000064">
+        <ti:label xml:lang="fr">Catalogue CAT_000064</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000081">
+        <ti:label xml:lang="fr">Catalogue CAT_000081</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000143">
+        <ti:label xml:lang="fr">Catalogue CAT_000143</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000225">
+        <ti:label xml:lang="fr">Catalogue CAT_000225</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000174">
+        <ti:label xml:lang="fr">Catalogue CAT_000174</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000165">
+        <ti:label xml:lang="fr">Catalogue CAT_000165</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000076">
+        <ti:label xml:lang="fr">Catalogue CAT_000076</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000160">
+        <ti:label xml:lang="fr">Catalogue CAT_000160</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000009">
+        <ti:label xml:lang="fr">Catalogue CAT_000009</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000023">
+        <ti:label xml:lang="fr">Catalogue CAT_000023</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000027">
+        <ti:label xml:lang="fr">Catalogue CAT_000027</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000113">
+        <ti:label xml:lang="fr">Catalogue CAT_000113</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000026">
+        <ti:label xml:lang="fr">Catalogue CAT_000026</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000221">
+        <ti:label xml:lang="fr">Catalogue CAT_000221</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000222">
+        <ti:label xml:lang="fr">Catalogue CAT_000222</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000092">
+        <ti:label xml:lang="fr">Catalogue CAT_000092</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000159">
+        <ti:label xml:lang="fr">Catalogue CAT_000159</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000015">
+        <ti:label xml:lang="fr">Catalogue CAT_000015</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000326">
+        <ti:label xml:lang="fr">Catalogue CAT_000326</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000080">
+        <ti:label xml:lang="fr">Catalogue CAT_000080</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000091">
+        <ti:label xml:lang="fr">Catalogue CAT_000091</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000109">
+        <ti:label xml:lang="fr">Catalogue CAT_000109</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000060">
+        <ti:label xml:lang="fr">Catalogue CAT_000060</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000120">
+        <ti:label xml:lang="fr">Catalogue CAT_000120</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000075">
+        <ti:label xml:lang="fr">Catalogue CAT_000075</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000227">
+        <ti:label xml:lang="fr">Catalogue CAT_000227</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000017">
+        <ti:label xml:lang="fr">Catalogue CAT_000017</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000029">
+        <ti:label xml:lang="fr">Catalogue CAT_000029</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000033">
+        <ti:label xml:lang="fr">Catalogue CAT_000033</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000153">
+        <ti:label xml:lang="fr">Catalogue CAT_000153</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000235">
+        <ti:label xml:lang="fr">Catalogue CAT_000235</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000083">
+        <ti:label xml:lang="fr">Catalogue CAT_000083</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000172">
+        <ti:label xml:lang="fr">Catalogue CAT_000172</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000050">
+        <ti:label xml:lang="fr">Catalogue CAT_000050</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000144">
+        <ti:label xml:lang="fr">Catalogue CAT_000144</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000200">
+        <ti:label xml:lang="fr">Catalogue CAT_000200</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000038">
+        <ti:label xml:lang="fr">Catalogue CAT_000038</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000039">
+        <ti:label xml:lang="fr">Catalogue CAT_000039</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000085">
+        <ti:label xml:lang="fr">Catalogue CAT_000085</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000046">
+        <ti:label xml:lang="fr">Catalogue CAT_000046</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000168">
+        <ti:label xml:lang="fr">Catalogue CAT_000168</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000167">
+        <ti:label xml:lang="fr">Catalogue CAT_000167</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000067">
+        <ti:label xml:lang="fr">Catalogue CAT_000067</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000329">
+        <ti:label xml:lang="fr">Catalogue CAT_000329</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000037">
+        <ti:label xml:lang="fr">Catalogue CAT_000037</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000065">
+        <ti:label xml:lang="fr">Catalogue CAT_000065</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000110">
+        <ti:label xml:lang="fr">Catalogue CAT_000110</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000019">
+        <ti:label xml:lang="fr">Catalogue CAT_000019</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000107">
+        <ti:label xml:lang="fr">Catalogue CAT_000107</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000226">
+        <ti:label xml:lang="fr">Catalogue CAT_000226</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000328">
+        <ti:label xml:lang="fr">Catalogue CAT_000328</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000054">
+        <ti:label xml:lang="fr">Catalogue CAT_000054</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000095">
+        <ti:label xml:lang="fr">Catalogue CAT_000095</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000229">
+        <ti:label xml:lang="fr">Catalogue CAT_000229</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000070">
+        <ti:label xml:lang="fr">Catalogue CAT_000070</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000093">
+        <ti:label xml:lang="fr">Catalogue CAT_000093</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000166">
+        <ti:label xml:lang="fr">Catalogue CAT_000166</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000198">
+        <ti:label xml:lang="fr">Catalogue CAT_000198</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000010">
+        <ti:label xml:lang="fr">Catalogue CAT_000010</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000078">
+        <ti:label xml:lang="fr">Catalogue CAT_000078</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000058">
+        <ti:label xml:lang="fr">Catalogue CAT_000058</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000131">
+        <ti:label xml:lang="fr">Catalogue CAT_000131</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000036">
+        <ti:label xml:lang="fr">Catalogue CAT_000036</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000157">
+        <ti:label xml:lang="fr">Catalogue CAT_000157</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000228">
+        <ti:label xml:lang="fr">Catalogue CAT_000228</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000094">
+        <ti:label xml:lang="fr">Catalogue CAT_000094</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000024">
+        <ti:label xml:lang="fr">Catalogue CAT_000024</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000127">
+        <ti:label xml:lang="fr">Catalogue CAT_000127</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000096">
+        <ti:label xml:lang="fr">Catalogue CAT_000096</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000068">
+        <ti:label xml:lang="fr">Catalogue CAT_000068</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000086">
+        <ti:label xml:lang="fr">Catalogue CAT_000086</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000224">
+        <ti:label xml:lang="fr">Catalogue CAT_000224</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000161">
+        <ti:label xml:lang="fr">Catalogue CAT_000161</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000013">
+        <ti:label xml:lang="fr">Catalogue CAT_000013</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000071">
+        <ti:label xml:lang="fr">Catalogue CAT_000071</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000232">
+        <ti:label xml:lang="fr">Catalogue CAT_000232</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000062">
+        <ti:label xml:lang="fr">Catalogue CAT_000062</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000130">
+        <ti:label xml:lang="fr">Catalogue CAT_000130</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000133">
+        <ti:label xml:lang="fr">Catalogue CAT_000133</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000028">
+        <ti:label xml:lang="fr">Catalogue CAT_000028</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000123">
+        <ti:label xml:lang="fr">Catalogue CAT_000123</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000079">
+        <ti:label xml:lang="fr">Catalogue CAT_000079</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000082">
+        <ti:label xml:lang="fr">Catalogue CAT_000082</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000020">
+        <ti:label xml:lang="fr">Catalogue CAT_000020</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000048">
+        <ti:label xml:lang="fr">Catalogue CAT_000048</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000051">
+        <ti:label xml:lang="fr">Catalogue CAT_000051</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000014">
+        <ti:label xml:lang="fr">Catalogue CAT_000014</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000156">
+        <ti:label xml:lang="fr">Catalogue CAT_000156</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000162">
+        <ti:label xml:lang="fr">Catalogue CAT_000162</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000098">
+        <ti:label xml:lang="fr">Catalogue CAT_000098</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000148">
+        <ti:label xml:lang="fr">Catalogue CAT_000148</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000238">
+        <ti:label xml:lang="fr">Catalogue CAT_000238</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000102">
+        <ti:label xml:lang="fr">Catalogue CAT_000102</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000151">
+        <ti:label xml:lang="fr">Catalogue CAT_000151</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000008">
+        <ti:label xml:lang="fr">Catalogue CAT_000008</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000154">
+        <ti:label xml:lang="fr">Catalogue CAT_000154</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000022">
+        <ti:label xml:lang="fr">Catalogue CAT_000022</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000041">
+        <ti:label xml:lang="fr">Catalogue CAT_000041</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000077">
+        <ti:label xml:lang="fr">Catalogue CAT_000077</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000116">
+        <ti:label xml:lang="fr">Catalogue CAT_000116</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000042">
+        <ti:label xml:lang="fr">Catalogue CAT_000042</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000031">
+        <ti:label xml:lang="fr">Catalogue CAT_000031</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000138">
+        <ti:label xml:lang="fr">Catalogue CAT_000138</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000006">
+        <ti:label xml:lang="fr">Catalogue CAT_000006</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000146">
+        <ti:label xml:lang="fr">Catalogue CAT_000146</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000147">
+        <ti:label xml:lang="fr">Catalogue CAT_000147</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000197">
+        <ti:label xml:lang="fr">Catalogue CAT_000197</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000108">
+        <ti:label xml:lang="fr">Catalogue CAT_000108</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000236">
+        <ti:label xml:lang="fr">Catalogue CAT_000236</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000040">
+        <ti:label xml:lang="fr">Catalogue CAT_000040</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000056">
+        <ti:label xml:lang="fr">Catalogue CAT_000056</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000142">
+        <ti:label xml:lang="fr">Catalogue CAT_000142</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000049">
+        <ti:label xml:lang="fr">Catalogue CAT_000049</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000066">
+        <ti:label xml:lang="fr">Catalogue CAT_000066</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000069">
+        <ti:label xml:lang="fr">Catalogue CAT_000069</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000239">
+        <ti:label xml:lang="fr">Catalogue CAT_000239</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000128">
+        <ti:label xml:lang="fr">Catalogue CAT_000128</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000052">
+        <ti:label xml:lang="fr">Catalogue CAT_000052</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000233">
+        <ti:label xml:lang="fr">Catalogue CAT_000233</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000125">
+        <ti:label xml:lang="fr">Catalogue CAT_000125</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000135">
+        <ti:label xml:lang="fr">Catalogue CAT_000135</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000016">
+        <ti:label xml:lang="fr">Catalogue CAT_000016</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000118">
+        <ti:label xml:lang="fr">Catalogue CAT_000118</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000063">
+        <ti:label xml:lang="fr">Catalogue CAT_000063</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000170">
+        <ti:label xml:lang="fr">Catalogue CAT_000170</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+    <ti:catalogue revueUrn="urn:dts:frLit:katabase.RDA" urn="urn:dts:frLit:katabase.RDA.CAT_000169">
+        <ti:label xml:lang="fr">Catalogue CAT_000169</ti:label>
+        <ti:description xml:lang="fr"/>
+    </ti:catalogue>
+</ti:revue>
