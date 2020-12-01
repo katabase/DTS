@@ -36,9 +36,9 @@
             <xsl:element name="cRefPattern" namespace="http://www.tei-c.org/ns/1.0">
                 <xsl:attribute name="name">cRefPattern</xsl:attribute>
                 <xsl:attribute name="n">desc</xsl:attribute>
-                <xsl:attribute name="matchPattern">(\w+\.\w+)</xsl:attribute>
+                <xsl:attribute name="matchPattern">(\w+).(\w+)</xsl:attribute>
                 <xsl:attribute name="replacementPattern"
-                    >#xpath(/tei:TEI/tei:text/tei:body/tei:list/tei:item/tei:desc[@xml:id='$1'])</xsl:attribute>
+                    >#xpath(/tei:TEI/tei:text/tei:body/tei:list/tei:item[@n='$1']/tei:desc[@n='$2'])</xsl:attribute>
                 <xsl:element name="p" namespace="http://www.tei-c.org/ns/1.0">This pointer pattern
                     extracts item and desc.</xsl:element>
                 <!--It won't work !-->
@@ -48,7 +48,7 @@
                 <xsl:attribute name="n">item</xsl:attribute>
                 <xsl:attribute name="matchPattern">(\w+)</xsl:attribute>
                 <xsl:attribute name="replacementPattern"
-                    >#xpath(/tei:TEI/tei:text/tei:body/tei:list/tei:item[@xml:id='$1'])</xsl:attribute>
+                    >#xpath(/tei:TEI/tei:text/tei:body/tei:list/tei:item[@n='$1'])</xsl:attribute>
                 <!--There should not be any whitespace in the xpath expressions.-->
                 <xsl:element name="p" namespace="http://www.tei-c.org/ns/1.0">This pointer pattern
                     extracts item.</xsl:element>
@@ -72,8 +72,7 @@
         <xsl:element name="item" namespace="http://www.tei-c.org/ns/1.0">
             <xsl:attribute name="n" select="@n"/>
             <xsl:attribute name="xml:id">
-                <xsl:variable name="tokenized" select="tokenize(@xml:id, '_')"/>
-                <xsl:value-of select="$tokenized[3]"/>
+                <xsl:value-of select="@xml:id"/>
             </xsl:attribute>
             <xsl:apply-templates/>
         </xsl:element>
@@ -82,8 +81,10 @@
     <xsl:template match="tei:desc[not(ancestor::tei:taxonomy)]">
         <xsl:element name="desc" namespace="http://www.tei-c.org/ns/1.0">
             <xsl:attribute name="xml:id">
-                <xsl:variable name="tokenized" select="tokenize(@xml:id, '_')"/>
-                <xsl:value-of select="concat($tokenized[3], '.', $tokenized[4])"/>
+                <xsl:value-of select="@xml:id"/>
+            </xsl:attribute>
+            <xsl:attribute name="n">
+                <xsl:value-of select="count(preceding-sibling::tei:desc) + 1"/>
             </xsl:attribute>
             <xsl:apply-templates/>
         </xsl:element>

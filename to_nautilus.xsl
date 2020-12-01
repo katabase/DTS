@@ -10,8 +10,6 @@
     </xsl:template>
 
 
-<!--TODO: passer des @xml:id aux @n-->
-
     <xsl:template match="/">
         <!--Metadata-->
         <xsl:for-each select="tei:teiCorpus">
