@@ -71,9 +71,11 @@
     <xsl:template match="tei:item[not(parent::tei:taxonomy)]">
         <xsl:element name="item" namespace="http://www.tei-c.org/ns/1.0">
             <xsl:attribute name="n" select="@n"/>
-            <xsl:attribute name="xml:id">
-                <xsl:value-of select="@xml:id"/>
-            </xsl:attribute>
+            <xsl:if test="@xml:id">
+                <xsl:attribute name="xml:id">
+                    <xsl:value-of select="@xml:id"/>
+                </xsl:attribute>
+            </xsl:if>
             <xsl:apply-templates/>
         </xsl:element>
     </xsl:template>

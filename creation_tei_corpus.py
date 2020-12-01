@@ -64,3 +64,8 @@ if __name__ == "__main__":
     transformation_xml_1()
     changement_path("corpus_file.xml")
     transformation_xml_2()
+
+
+# On reprend le tout:
+# - un dossier d'entrée avec tous les fichiers à modifier
+# - un dossier de sortie directement nautilus ? 
