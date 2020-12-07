@@ -14,7 +14,7 @@
         <!--Metadata-->
         <xsl:for-each select="tei:teiCorpus">
             <xsl:variable name="revue" select="@xml:id"/>
-            <xsl:result-document href="katabase/data/katabase/__cts__.xml">
+            <xsl:result-document href="data/katabase/__cts__.xml">
                 <ti:textgroup xsl:exclude-result-prefixes="tei" projid="frHist:katabase"
                     urn="urn:dts:frHist:katabase">
                     <ti:groupname xml:lang="{@xml:lang}">
@@ -23,7 +23,7 @@
                 </ti:textgroup>
             </xsl:result-document>
 
-            <xsl:result-document href="katabase/data/katabase/{$revue}/__cts__.xml">
+            <xsl:result-document href="data/katabase/{$revue}/__cts__.xml">
                 <ti:work xsl:exclude-result-prefixes="tei" groupUrn="urn:dts:frHist:katabase"
                     urn="urn:dts:frHist:katabase.{$revue}">
                     <ti:title xml:lang="fr"> Revue des autographes </ti:title>
@@ -52,8 +52,7 @@
             <xsl:variable name="catalogue">
                 <xsl:value-of select="@xml:id"/>
             </xsl:variable>
-            <xsl:result-document
-                href="katabase/data/katabase/{$revue}/katabase.{$revue}.{$catalogue}.xml">
+            <xsl:result-document href="data/katabase/{$revue}/katabase.{$revue}.{$catalogue}.xml">
                 <xsl:element name="TEI" namespace="http://www.tei-c.org/ns/1.0">
                     <xsl:attribute name="type">Catalogue</xsl:attribute>
                     <xsl:attribute name="xml:id" select="@xml:id"/>
