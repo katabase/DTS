@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-    xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:ti="http://chs.harvard.edu/xmlns/cts">
+    xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:ti="http://chs.harvard.edu/xmlns/cts"
+    xmlns:cpt="http://purl.org/capitains/ns/1.0#" xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:dct="http://purl.org/dc/terms/">
     <xsl:strip-space elements="*"/>
 
     <xsl:template match="@* | node()">
@@ -12,32 +14,94 @@
 
     <xsl:template match="/">
         <!--Metadata-->
+        <!--Ici on structure par revue: créer un tei:teiCorpus me semble le plus propre, on aurait donc
+        un tei:teiCorpus par revue.-->
         <xsl:for-each select="tei:teiCorpus">
             <xsl:variable name="revue" select="@xml:id"/>
             <xsl:result-document href="data/katabase/__cts__.xml">
-                <ti:textgroup xsl:exclude-result-prefixes="tei" projid="frHist:katabase"
-                    urn="urn:dts:frHist:katabase">
-                    <ti:groupname xml:lang="{@xml:lang}">
+                <xsl:element name="ti:textgroup" namespace="http://chs.harvard.edu/xmlns/cts">
+                    <!--<xsl:attribute name="projid">frHist:katabase</xsl:attribute>-->
+                    <xsl:attribute name="urn">urn:dts:frHist:katabase</xsl:attribute>
+                    <xsl:namespace name="dc">http://purl.org/dc/elements/1.1/</xsl:namespace>
+                    <xsl:namespace name="dct">http://purl.org/dc/terms/</xsl:namespace>
+                    <xsl:namespace name="ti">http://chs.harvard.edu/xmlns/cts</xsl:namespace>
+                    <xsl:namespace name="cpt">http://purl.org/capitains/ns/1.0#</xsl:namespace>
+                    <xsl:element name="ti:groupname" namespace="http://chs.harvard.edu/xmlns/cts">
+                        <xsl:attribute name="xml:lang" select="@xml:lang"/>
                         <xsl:text>Catalogues de vente de manuscrits autographes</xsl:text>
-                    </ti:groupname>
-                </ti:textgroup>
+                    </xsl:element>
+                    <xsl:element name="ti:work" namespace="http://chs.harvard.edu/xmlns/cts">
+                        <xsl:attribute name="groupUrn">urn:dts:frHist:katabase</xsl:attribute>
+                        <xsl:attribute name="urn"
+                            select="concat('urn:dts:frHist:katabase.', $revue)"/>
+                        <xsl:element name="ti:title" namespace="http://chs.harvard.edu/xmlns/cts"
+                            >Revue des autographes</xsl:element>
+                        <xsl:element name="cpt:structured-metadata"
+                            namespace="http://purl.org/capitains/ns/1.0#">
+                            <!--Il faudra probablement reprendre le xpath et aller chercher ces infos dans les métadonnées du tei:teiCorpus
+                            pour être vraiment propre-->
+                            <xsl:element name="dc:creator"
+                                namespace="http://purl.org/dc/elements/1.1/">
+                                <xsl:value-of select="descendant::tei:TEI[1]//tei:editor"/>
+                            </xsl:element>
+                            <xsl:element name="dc:title"
+                                namespace="http://purl.org/dc/elements/1.1/">
+                                <xsl:value-of
+                                    select="descendant::tei:TEI[1]//tei:sourceDesc//tei:title"/>
+                            </xsl:element>
+                            <xsl:element name="dc:language"
+                                namespace="http://purl.org/dc/elements/1.1/">French</xsl:element>
+                            <xsl:comment>On attend ici les dates de vie de la revue.</xsl:comment>
+                            <xsl:element name="dc:date" namespace="http://purl.org/dc/elements/1.1/">
+                                <xsl:value-of select="//tei:TBC"/>
+                                <xsl:text>-</xsl:text>
+                                <xsl:value-of select="//tei:TBC"/>
+                            </xsl:element>
+                        </xsl:element>
+                    </xsl:element>
+                </xsl:element>
             </xsl:result-document>
 
             <xsl:result-document href="data/katabase/{$revue}/__cts__.xml">
-                <ti:work xsl:exclude-result-prefixes="tei" groupUrn="urn:dts:frHist:katabase"
-                    urn="urn:dts:frHist:katabase.{$revue}">
-                    <ti:title xml:lang="fr"> Revue des autographes </ti:title>
+                <xsl:element name="ti:work" namespace="http://chs.harvard.edu/xmlns/cts">
+                    <xsl:attribute name="groupUrn">urn:dts:frHist:katabase</xsl:attribute>
+                    <xsl:attribute name="urn" select="concat('urn:dts:frHist:katabase.', $revue)"/>
+                    <xsl:namespace name="dc">http://purl.org/dc/elements/1.1/</xsl:namespace>
+                    <xsl:namespace name="dct">http://purl.org/dc/terms/</xsl:namespace>
+                    <xsl:namespace name="ti">http://chs.harvard.edu/xmlns/cts</xsl:namespace>
+                    <xsl:namespace name="cpt">http://purl.org/capitains/ns/1.0#</xsl:namespace>
+                    <xsl:element name="ti:title" namespace="http://chs.harvard.edu/xmlns/cts">
+                        <xsl:attribute name=" xml:lang">fr</xsl:attribute>
+                        <xsl:text>Revue des
+                        autographes</xsl:text>
+                    </xsl:element>
                     <xsl:for-each select="descendant::tei:TEI">
-                        <ti:edition revueUrn="urn:dts:frHist:katabase.{$revue}"
-                            urn="urn:dts:frHist:katabase.{$revue}.{@xml:id}">
-                            <ti:label xml:lang="fr">Catalogue <xsl:value-of select="@xml:id"
-                                /></ti:label>
-                            <ti:description xml:lang="fr">
-                                <xsl:value-of select="descendant::tei:sourceDesc"/>
-                            </ti:description>
-                        </ti:edition>
+                        <xsl:element name="ti:edition" namespace="http://chs.harvard.edu/xmlns/cts">
+                            <xsl:attribute name="groupUrn"
+                                select="concat('urn:dts:frHist:katabase.', $revue)"/>
+                            <xsl:attribute name="urn"
+                                select="concat('urn:dts:frHist:katabase.', $revue, '.', @xml:id)"/>
+                            <xsl:element name="ti:label"
+                                namespace="http://chs.harvard.edu/xmlns/cts">
+                                <xsl:attribute name=" xml:lang">fr</xsl:attribute>
+                                <xsl:text>Catalogue </xsl:text>
+                                <xsl:value-of select="@xml:id"/>
+                            </xsl:element>
+                            <xsl:element name="ti:description"
+                                namespace="http://chs.harvard.edu/xmlns/cts">
+                                <xsl:attribute name=" xml:lang">fr</xsl:attribute>
+                                <xsl:value-of
+                                    select="concat(substring(descendant::tei:sourceDesc/tei:bibl/tei:title, 1, 1), substring(lower-case(descendant::tei:sourceDesc/tei:bibl/tei:title), 2))"/>
+                                <xsl:text>, </xsl:text>
+                                <xsl:value-of select="descendant::tei:sourceDesc//tei:num"/>
+                                <xsl:text> (</xsl:text>
+                                <xsl:value-of
+                                    select="concat(descendant::tei:sourceDesc/tei:bibl/tei:date[1], ').')"
+                                />
+                            </xsl:element>
+                        </xsl:element>
                     </xsl:for-each>
-                </ti:work>
+                </xsl:element>
             </xsl:result-document>
 
         </xsl:for-each>
